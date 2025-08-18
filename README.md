@@ -19,3 +19,4 @@ Et le backend renvoie du **JSON** au lieu de générer et de renvoyer lui-même 
 - `cd <project_folder>`
 - `npm i`
 - `npm run dev` --> http://localhost:5173
+- on va aussi utiliser TailwindCSS
