@@ -7,7 +7,7 @@ durée = 2 semaines
 Autrefois, le contenu frontend était généré dynamiquement par le backend, sous forme de code HTML + CSS + JS.  
 Mais une application mobile ou desktop ne reconnaît pas ce type de code...  
 
-De nos jours, on développe des **SPAs** (single page applications) avec des frameworks comme React ou React Native (mobile).  
+De nos jours, on développe des **SPAs** (single page applications) avec des frameworks comme React.  
 Et le backend renvoie du **JSON** au lieu de générer et de renvoyer lui-même du HTML+CSS+JS.  
 
 # Setup (Vite + React + TS)
@@ -19,5 +19,6 @@ Et le backend renvoie du **JSON** au lieu de générer et de renvoyer lui-même 
 - project name = 'react-allocine'
 - `cd react-allocine`
 - `npm i` pour installer les dependencies (listées dans notre package.json)
-- `npm run dev` --> http://localhost:5173
+  - ça crée un gros dossier nommé 'node_modules' dans lequel sont installés les dependencies
+- Lancer l'application en mode dev via `npm run dev` --> http://localhost:5173
 - on va aussi utiliser **TailwindCSS**
