@@ -16,7 +16,8 @@ Et le backend renvoie du **JSON** au lieu de générer et de renvoyer lui-même 
   - l'install de Node s'accompagne souvent de l'install de **npm** (Node Package Manager)
 - on va aussi utiliser **Vite** pour initialiser et développer notre projet React 
 - `npm create vite@latest` --> React + **TypeScript**
-- `cd <project_folder>`
+- project name = 'react-allocine'
+- `cd react-allocine`
 - `npm i` pour installer les dependencies (listées dans notre package.json)
 - `npm run dev` --> http://localhost:5173
 - on va aussi utiliser **TailwindCSS**
