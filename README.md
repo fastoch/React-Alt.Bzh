@@ -37,3 +37,8 @@ Et le backend renvoie du **JSON** au lieu de générer et de renvoyer lui-même 
       ]
     })
     ```
+  - importer tailwindcss au début de notre fichier /src/index.css: `@import "tailwindcss";`
+  - on va probablement devoir effacer le CSS déjà présent par défaut dans index.css et App.css (à confirmer avec le prof)
+ 
+  ---
+  EOF
