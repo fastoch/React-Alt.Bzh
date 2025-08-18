@@ -1,6 +1,6 @@
 # Intro 
 
-prof = Nicolas Acard (prof Nextech Avignon)  
+prof = Nicolas Acard 
 premier jour = 18 août 2025   
 durée = 2 semaines  
 
