@@ -10,15 +10,30 @@ Mais une application mobile ou desktop ne reconnaît pas ce type de code...
 De nos jours, on développe des **SPAs** (single page applications) avec des frameworks comme React.  
 Et le backend renvoie du **JSON** au lieu de générer et de renvoyer lui-même du HTML+CSS+JS.  
 
-# Setup (Vite + React + TS)
+# Project Setup (Vite + React + TS)
 
 - installer **Node.js** pour pouvoir exécuter du JS localement
   - l'install de Node s'accompagne souvent de l'install de **npm** (Node Package Manager)
 - on va aussi utiliser **Vite** pour initialiser et développer notre projet React 
-- `npm create vite@latest` --> React + **TypeScript**
-- project name = 'react-allocine'
+  - `npm create vite@latest` --> React + **TypeScript**
+  - project name = 'react-allocine'
 - `cd react-allocine`
 - `npm i` pour installer les dependencies (listées dans notre package.json)
   - ça crée un gros dossier nommé 'node_modules' dans lequel sont installés les dependencies
 - Lancer l'application en mode dev via `npm run dev` --> http://localhost:5173
 - on va aussi utiliser **TailwindCSS**
+  - installer Tailwind via un terminal: `npm i tailwindcss @tailwindcss/vite`
+  - configurer le fichier vite.config.ts en ajoutant tailwindcss aux imports et à la liste des plugins:
+    ```ts
+    import { defineConfig } from 'vite'
+    import react from '@vitejs/plugin-react'
+    import tailwindcss from '@tailwindcss/vite'
+    
+    // https://vite.dev/config/
+    export default defineConfig({
+      plugins: [
+        tailwindcss(),
+        react()
+      ]
+    })
+    ```
