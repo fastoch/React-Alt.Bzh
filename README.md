@@ -40,10 +40,9 @@ Et le backend renvoie du **JSON** au lieu de générer et de renvoyer lui-même 
   - enfin, importer tailwindcss au début de notre fichier /src/index.css: `@import "tailwindcss";`
   - on peut effacer le CSS déjà présent par défaut dans index.css 
 
- # Correction Exercice
+# Correction Exercice du mardi 19 août
 
- consigne: stocker données (tableau d'objets) dans un fichier qui va alimenter ensuite l'UI de notre appli React.  
- 
+https://git.alt-tools.tech/bettercallsoul-bytemerenf/allocine/-/tree/session2?ref_type=heads 
  
   ---
   EOF
