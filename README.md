@@ -71,6 +71,7 @@ Section à compléter...
 Exemple:  
 <img width="714" height="437" alt="Axios_exemple" src="https://github.com/user-attachments/assets/a58d3cb8-be91-452f-bdcb-049ec3b3730c" />
 
+En pratique, les fonctions comme `getMovies` sont placées dans un dossier /src/services, dans un fichier dédié qu'on peut nommer `api.ts`.
  
   ---
   EOF
