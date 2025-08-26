@@ -68,6 +68,9 @@ Section à compléter...
 - exécuter `npm i axios` pour l'installer
 - ajouter `import axios from 'axios';` dans le fichier .tsx concerné 
 
+Exemple:  
+<img width="672" height="282" alt="Axios_exemple" src="https://github.com/user-attachments/assets/8c00ef36-c98b-45f4-b4b4-36a5ca4c517a" />
+
  
   ---
   EOF
