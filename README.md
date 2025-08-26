@@ -59,8 +59,14 @@ Section à compléter...
 - Update (re-render)
 - "Destruction" (n'est plus affiché)
 
-## Fonctionnement de `useEffect(() => {}, [])`
+# Fonctionnement de `useEffect(() => {}, [])`
 
+# Envoyer des requêtes HTTP
+
+# Axios
+
+- exécuter `npm i axios` pour l'installer
+- ajouter `import axios from 'axios';` dans le fichier .tsx concerné 
 
  
   ---
