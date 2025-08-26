@@ -43,6 +43,16 @@ Et le backend renvoie du **JSON** au lieu de générer et de renvoyer lui-même 
 # Correction Exercice du mardi 19 août
 
 https://git.alt-tools.tech/bettercallsoul-bytemerenf/allocine/-/tree/session2?ref_type=heads 
+
+# React router
+
+
+
+# React-hook-form (25 août)
+
+# 
+
+
  
   ---
   EOF
