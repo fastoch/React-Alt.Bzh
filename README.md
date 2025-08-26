@@ -69,7 +69,7 @@ Section à compléter...
 - ajouter `import axios from 'axios';` dans le fichier .tsx concerné 
 
 Exemple:  
-<img width="672" height="282" alt="Axios_exemple" src="https://github.com/user-attachments/assets/8c00ef36-c98b-45f4-b4b4-36a5ca4c517a" />
+<img width="714" height="437" alt="Axios_exemple" src="https://github.com/user-attachments/assets/a58d3cb8-be91-452f-bdcb-049ec3b3730c" />
 
  
   ---
