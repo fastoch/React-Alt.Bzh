@@ -46,9 +46,12 @@ https://git.alt-tools.tech/bettercallsoul-bytemerenf/allocine/-/tree/session2?re
 
 # React router
 
-
+Section à compléter...
 
 # React-hook-form (25 août)
+
+- install the library: `npm install react-hook-form`
+- 
 
 # Cycle de vie d'un composant
 
