@@ -79,6 +79,8 @@ Exemple 2:
 
 # Travail pour appliquer le cours du 26 août
 
+Sur le projet suivant: https://git.alt-tools.tech/gp-better-code-soul/React_movie_app  
+
 - fetch popular movies + movieDetails from TMDB's API
 - use axios and `useEffect(() => {}, [])`
 
