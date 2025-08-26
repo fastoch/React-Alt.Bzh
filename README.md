@@ -50,8 +50,11 @@ https://git.alt-tools.tech/bettercallsoul-bytemerenf/allocine/-/tree/session2?re
 
 # React-hook-form (25 août)
 
-# 
+# Cycle de vie d'un composant
 
+- Initialisation (le composant est "monté")
+- Update (re-render)
+- "Destruction" (n'est plus affiché)
 
  
   ---
