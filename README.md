@@ -59,6 +59,9 @@ Section à compléter...
 - Update (re-render)
 - "Destruction" (n'est plus affiché)
 
+## Fonctionnement de `useEffect(() => {}, [])`
+
+
  
   ---
   EOF
