@@ -74,6 +74,8 @@ Exemple:
 En pratique, les fonctions comme `getMovies` sont placées dans un dossier `/src/services`, dans un fichier `api.ts`.  
 NE PAS OUBLIER d'exporter ces fonctions afin de pouvoir les importer ensuite dans les différents composants.  
 
+Exemple 2:  
+<img width="904" height="457" alt="Axios_exemple2" src="https://github.com/user-attachments/assets/789aad4e-0deb-4bf3-a02f-0e7e0c70edba" />
 
  
 ---
