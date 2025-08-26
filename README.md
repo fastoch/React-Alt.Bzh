@@ -77,6 +77,11 @@ NE PAS OUBLIER d'exporter ces fonctions afin de pouvoir les importer ensuite dan
 Exemple 2:  
 <img width="904" height="457" alt="Axios_exemple2" src="https://github.com/user-attachments/assets/789aad4e-0deb-4bf3-a02f-0e7e0c70edba" />
 
- 
+# Travail pour appliquer le cours du 26 août
+
+- fetch popular movies + movieDetails from TMDB's API
+- use axios and `useEffect(() => {}, [])`
+
+
 ---
 EOF
