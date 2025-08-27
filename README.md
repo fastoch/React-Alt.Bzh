@@ -84,6 +84,11 @@ Sur le projet suivant: https://git.alt-tools.tech/gp-better-code-soul/React_movi
 - fetch popular movies + movieDetails from TMDB's API
 - use axios and `useEffect(() => {}, [])`
 
+# 27 août - Retirer la logique de App.tsx 
+
+L'objectif est de n'avoir dans le composant `App` rien d'autre que les routes.  
+
+
 
 ---
 EOF
