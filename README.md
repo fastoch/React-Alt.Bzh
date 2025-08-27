@@ -93,8 +93,42 @@ Lien utile: https://deku.posstree.com/en/react/context-api/
 
 Un contexte peut être vu comme un "utérus" et le `useContext()` est le cordon ombilical qui relie un contexte à un composant.  
 Le contexte est implémenté dans un fichier dédié (comme `CounterProvider`) au sein d'un dossier `Contexts`.  
-Et le branchement avec `useContext()` se fait au niveau du composant qu'on veut "brancher".
+Et le branchement avec `useContext()` se fait au niveau du composant qu'on veut "brancher".  
 
+Exemple de contexte avec un fichier `WishlistProvider.tsx`:
+```tsx
+import { createContext } from "react";
+
+export const WishlistContext = createContext();
+
+const WishlistProvider = ({children}) => {
+  const [wishlist, setWishlist] = useState<MovieInterface[]>([])
+  const updateWishlist = () => {
+
+  }
+
+  return (
+    <WishlistContext value={{wishlist, updateWishlist}}>
+
+    </WishlistContext>
+  )
+}
+```
+
+Ensuite, on branche ce contexte au composant `NavBar.tsx`:
+```tsx
+const NavBar = () => {
+  const {wishlist, updateWishlist} = useContext(WishlistContext)
+}
+```
+
+Enfin, on ajoute le nouveau contexte dans `App.tsx`:
+```tsx
+
+```
+
+Le code du prof est consultable ici:  
+https://git.alt-tools.tech/bettercallsoul-bytemerenf/allocine/-/tree/session7?ref_type=heads    
 
 ---
 EOF
