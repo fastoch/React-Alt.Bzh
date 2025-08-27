@@ -130,5 +130,7 @@ Enfin, on ajoute le nouveau contexte dans `App.tsx`:
 Le code du prof est consultable ici:  
 https://git.alt-tools.tech/bettercallsoul-bytemerenf/allocine/-/tree/session7?ref_type=heads    
 
+Pour cet après-midi (27 août), je peux clone le repo "session6" du prof et regarder ce qu'il a fait sur la branche "session7".
+
 ---
 EOF
