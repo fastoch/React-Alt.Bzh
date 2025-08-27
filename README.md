@@ -131,6 +131,10 @@ Le code du prof est consultable ici:
 https://git.alt-tools.tech/bettercallsoul-bytemerenf/allocine/-/tree/session7?ref_type=heads    
 
 Pour cet après-midi (27 août), je peux clone le repo "session6" du prof et regarder ce qu'il a fait sur la branche "session7".
+Consignes:
+- incrémenter le compteur de Likes sur tous les films à la fois quand on like n'importe quel film
+- implémeter les contextes WishListProvider et LikeCounterProvider
+- faire en sorte qu'on ne puisse pas ajouter des films déjà présents dans la wishlist
 
 ---
 EOF
