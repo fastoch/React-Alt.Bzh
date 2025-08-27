@@ -86,8 +86,14 @@ Sur le projet suivant: https://git.alt-tools.tech/gp-better-code-soul/React_movi
 
 # 27 août - Retirer la logique de App.tsx 
 
-L'objectif est de n'avoir dans le composant `App` rien d'autre que les routes.  
+L'objectif est de n'avoir dans le composant `App` rien d'autre que les routes... et les contextes (qu'on va voir aujourd'hui).    
 
+Lien utile: https://deku.posstree.com/en/react/context-api/  
+"Let's see how to use Context API to manage the global data in React."  
+
+Un contexte peut être vu comme un "utérus" et le `useContext()` est le cordon ombilical qui relie un contexte à un composant.  
+Le contexte est implémenté dans un fichier dédié (comme `CounterProvider`) au sein d'un dossier `Contexts`.  
+Et le branchement avec `useContext()` se fait au niveau du composant qu'on veut "brancher".
 
 
 ---
