@@ -137,5 +137,26 @@ Consignes:
 - implémeter les contextes WishListProvider et LikeCounterProvider
 - faire en sorte qu'on ne puisse pas ajouter des films déjà présents dans la wishlist
 
+# 28 août - Route guard et Layout
+
+## Route guard avec `Outlet`
+
+<img width="657" height="363" alt="Navigate_Outlet" src="https://github.com/user-attachments/assets/7668ba47-b243-4922-a78a-cbed21e1c2a4" />  
+
+<img width="691" height="517" alt="image" src="https://github.com/user-attachments/assets/00246c1e-09d0-4cc7-987e-69eb6e127faa" />
+
+On récupère le token d'authentification dans le composant `Signin.tsx` (la response du back contient le token).  
+On va stocker le token dans un contexte (créé avec `createContext()`) puis dans le **local storage**.  
+
+Le composant React "Outlet" permet de bloquer l'accès aux routes encapsulées par `PrivateRoute` si l'user n'est pas connecté (pas de token).  
+
+## Création d'un `Layout`
+
+Le but est d'afficher certains éléments de l'UI et d'en masquer d'autres en fonctions du rôle du user et de s'il est connecté ou non.
+
+- Dans un dossier `/src/layouts`, on crée notre un fichier `Admin.tsx`
+<img width="759" height="406" alt="image" src="https://github.com/user-attachments/assets/de128362-343b-4396-b0f5-2000415d8bd0" />
+
+
 ---
 EOF
