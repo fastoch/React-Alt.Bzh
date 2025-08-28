@@ -154,7 +154,7 @@ Le composant React "Outlet" permet de bloquer l'accès aux routes encapsulées p
 
 Le but est d'afficher certains éléments de l'UI et d'en masquer d'autres en fonctions du rôle du user et de s'il est connecté ou non.
 
-- Dans un dossier `/src/layouts`, on crée notre un fichier `Admin.tsx`
+- Dans un dossier `/src/layouts`, on crée notre un fichier `Admin.tsx` (best practice: nommer le fichier `AdminLayout.tsx`)
 <img width="759" height="406" alt="image" src="https://github.com/user-attachments/assets/de128362-343b-4396-b0f5-2000415d8bd0" />
 
 
