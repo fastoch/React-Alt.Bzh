@@ -139,6 +139,8 @@ Consignes:
 
 # 28 août - Route guard et Layout
 
+support de cours: https://wiki.alt-tools.tech/doc/support-moSEStuPU8
+
 ## Route guard avec `Outlet` et `Navigate`
 
 <img width="657" height="363" alt="Navigate_Outlet" src="https://github.com/user-attachments/assets/7668ba47-b243-4922-a78a-cbed21e1c2a4" />  
