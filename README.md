@@ -170,7 +170,7 @@ Zustand is the **simplest** and **most efficient** state manager for React, with
 ## Travail du jour
 
 - gérer les variables d'état avec Zustand
-- utiliser la fonction `persist` de Zustand pour faire persister les données dans le local storage
+- utiliser la fonction `persist` de Zustand pour faire persister les données dans `localstorage` ou `sessionStorage`
 
 ---
 EOF
