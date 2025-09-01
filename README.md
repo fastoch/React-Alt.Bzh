@@ -161,8 +161,11 @@ Le but est d'afficher certains éléments de l'UI et d'en masquer d'autres en fo
 
 # 1er septembre - Local storage and Zustand
 
+## Zustand
+
 <img width="735" height="349" alt="image" src="https://github.com/user-attachments/assets/62293fdf-aa5e-4285-8cd6-4e65acd7ba62" />
 
+Zustand is the **simplest** and **most efficient** state manager for React, with a tiny bundle size and zero boilerplate. 
 
 ---
 EOF
