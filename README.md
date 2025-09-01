@@ -167,5 +167,10 @@ Le but est d'afficher certains éléments de l'UI et d'en masquer d'autres en fo
 
 Zustand is the **simplest** and **most efficient** state manager for React, with a tiny bundle size and zero boilerplate. 
 
+## Travail du jour
+
+- gérer les variables d'état avec Zustand
+- utiliser la fonction `persist` de Zustand pour faire persister les données dans le local storage
+
 ---
 EOF
