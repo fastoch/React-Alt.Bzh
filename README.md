@@ -159,7 +159,7 @@ Le but est d'afficher certains éléments de l'UI et d'en masquer d'autres en fo
 - Dans un dossier `/src/layouts`, on crée notre un fichier `Admin.tsx` (best practice: nommer le fichier `AdminLayout.tsx`)
 <img width="759" height="406" alt="image" src="https://github.com/user-attachments/assets/de128362-343b-4396-b0f5-2000415d8bd0" />
 
-# 1er septembre - Local storage
+# 1er septembre - Local storage and Zustand
 
 
 
