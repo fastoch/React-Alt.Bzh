@@ -179,6 +179,7 @@ It's a popular JavaScript library for **asynchronous** state management, data fe
 Primarily used in React, Vue, Solid, Svelte, and Angular applications to handle server-sourced data efficiently.  
 
 - `npm i @tanstack/react-query`
+- `npm i @tanstack/react-query-devtools`
 
 ## Travail du jour
 
