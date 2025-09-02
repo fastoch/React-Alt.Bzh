@@ -169,6 +169,7 @@ Zustand is the **simplest** and **most efficient** state manager for React, with
 
 ## Travail du jour
 
+- cloner la session 8 du prof : https://git.alt-tools.tech/bettercallsoul-bytemerenf/allocine/-/tree/session8?ref_type=heads
 - gérer les variables d'état avec Zustand
 - utiliser la fonction `persist` de Zustand pour faire persister les données dans `localstorage` ou `sessionStorage`
 
@@ -178,7 +179,13 @@ It's a popular JavaScript library for **asynchronous** state management, data fe
 Primarily used in React, Vue, Solid, Svelte, and Angular applications to handle server-sourced data efficiently.  
 
 - `npm i @tanstack/react-query`
-- 
+
+## Travail du jour
+
+- à partir du code produit hier, charger les films suivants lors du clic sur un bouton situé en haut de la page
+- pour cela, utiliser TanStack Query
+
+
 
 ---
 EOF
