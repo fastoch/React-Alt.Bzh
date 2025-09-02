@@ -184,7 +184,8 @@ React Query (now known as TanStack React Query) simplifies data fetching and sta
 ## Travail du jour
 
 - à partir du code produit hier, charger les films suivants lors du clic sur un bouton situé en haut de la page
-- pour cela, utiliser TanStack Query (useMutation) et ne plus utiliser useEffect
+  - le clic appelle la fonction refetch de useQuery
+- utiliser TanStack Query (useQuery et useMutation) et ne plus utiliser useEffect
 
 
 
