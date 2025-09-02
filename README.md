@@ -177,7 +177,8 @@ Zustand is the **simplest** and **most efficient** state manager for React, with
 It's a popular JavaScript library for **asynchronous** state management, data fetching, and caching.  
 Primarily used in React, Vue, Solid, Svelte, and Angular applications to handle server-sourced data efficiently.  
 
-
+- `npm i @tanstack/react-query`
+- 
 
 ---
 EOF
