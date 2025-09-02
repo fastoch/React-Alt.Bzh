@@ -176,9 +176,7 @@ Zustand is the **simplest** and **most efficient** state manager for React, with
 # 2 septembre - TanStack Query (session 10)
 
 It's a popular JavaScript library for **asynchronous** state management, data fetching, and caching.  
-Primarily used in React, Vue, Solid, Svelte, and Angular applications to handle server-sourced data efficiently.  
-
-**TanStack Query** is the new official name for **React Query**, reflecting an expansion beyond just React, but the core usage and features remain highly similar.
+React Query (now known as TanStack React Query) simplifies data fetching and state management in your React applications.  
 
 - `npm i @tanstack/react-query`
 - `npm i @tanstack/react-query-devtools`
