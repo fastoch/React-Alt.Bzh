@@ -172,5 +172,12 @@ Zustand is the **simplest** and **most efficient** state manager for React, with
 - gérer les variables d'état avec Zustand
 - utiliser la fonction `persist` de Zustand pour faire persister les données dans `localstorage` ou `sessionStorage`
 
+# 2 septembre - TanStack Query (session 10)
+
+It's a popular JavaScript library for **asynchronous** state management, data fetching, and caching.  
+Primarily used in React, Vue, Solid, Svelte, and Angular applications to handle server-sourced data efficiently.  
+
+
+
 ---
 EOF
